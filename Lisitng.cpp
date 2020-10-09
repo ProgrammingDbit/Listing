@@ -21,26 +21,25 @@ int main ()  {
 	double Lstax, Lcom, sp;
 	double lPrice ;
 	Lstax = 0.16*lPrice; //sales tax
-    Lcom  = 0.065*lPrice; //comsission
+        Lcom  = 0.065*lPrice; //comsission
 	sp= lPrice - Lstax -Lcom; //selling price 
 	
 	
 	//User Input 
 
-    cout<< "Please enter your first name :"; 
-    cin>>fName;
+        cout<< "Please enter your first name :"; 
+        cin>>fName;
     
-    cout<< "Please enter your last name :";
-    cin>>lName;
+        cout<< "Please enter your last name :";
+        cin>>lName;
 		
 	cout<< "Please enter your listing price :";
-    cin>>lPrice;
+        cin>>lPrice;
     
     //user output
 	cout<< "Real estate agent Calculator \n"; //Heading
-	
-		cout<<"Hello"<< fName << lName<<endl;
-		cout<<"The Selling Price   is: "<<sp<<endl;
+	cout<<"Hello"<< fName << lName<<endl;
+        cout<<"The Selling Price   is: "<<sp<<endl;
         cout<<"The agents commission is :"<<Lcom<<endl;
         cout<<"The sales tax is :"<<Lstax<<endl;
         return 0;
